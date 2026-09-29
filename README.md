@@ -17,13 +17,13 @@ Sihao(Jacky) Chen || https://github.com/Abyssjac
 
 4 Strength — Responsive live transcription and generation. In my test, the system understood spoken input reliably and generated slides quickly enough to keep up with the lecture flow, without noticeable delay.
 
-5 
+5 Weakness — Some navigation controls are difficult to understand at first. Several controls on the lecture page are shown mainly as icons without visible text labels. During my first use, I had to hover over or try the icons to figure out functions such as List View. This makes basic navigation less obvious for a first-time instructor.
 
-6 
+6 Weakness — List View does not give a clear overview of the whole deck. My test lecture generated four slides, but after switching to List View, I still saw large individual slides instead of a compact overview or thumbnails of all four slides at once. This made it harder to quickly understand the structure of the deck or move to a specific slide.
 
-7 
+7 Weakness — Generated slide content can be repetitive. In my generated "Race strategy elements" slide, one bullet said "The undercut," while the next bullet explained "The undercut: pit earlier to use fresh tires and gain time." The two bullets repeated the same idea, so the generated deck may still require manual cleanup before it is ready to share.
 
-8 
+8 Strength — Sharing permissions are clearly explained. The Privacy & Sharing page clearly separates Public and Restricted access and explains what each option means. It also allows an instructor to give a specific person Viewer access, making it easy to understand who can open the lecture deck.
 
 9 
 
