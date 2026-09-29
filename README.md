@@ -6,6 +6,8 @@ A little exercise to get started with the specification phase of the software de
 
 Sihao(Jacky) Chen || https://github.com/Abyssjac
 
+Shiqi Wang || https://github.com/ShiqiWang1115
+
 
 ## Review of the Current Application
 
@@ -17,17 +19,17 @@ Sihao(Jacky) Chen || https://github.com/Abyssjac
 
 4 Strength — Responsive live transcription and generation. In my test, the system understood spoken input reliably and generated slides quickly enough to keep up with the lecture flow, without noticeable delay.
 
-5 
+5 Strength — Clear upload feedback. Uploaded files show “Processing” or “Ready,” an extracted-text preview, and a “Use” checkbox. Instructors can confirm when a file is available for use.
 
-6 
+6 Weakness — No direct access to source PDFs during lectures. Although three uploaded PDFs were marked “Ready” and “Use,” the lecture view offered no obvious way to open them. Instructors must consult the originals in a separate window.
 
-7 
+7 Gap — No search for uploaded materials. Instructors must scan filenames to locate a specific figure.
 
-8 
+8 Gap — No filters for uploaded materials. The file list offers no visible filtering controls, making relevant materials harder to find as the library grows.
 
-9 
+9 Gap — No grouping by chapter, topic, or lecture unit. Materials appear in one flat list, making it harder to direct the AI to the correct sources.
 
-10 
+10 Gap — No page-level PDF thumbnails. The list shows only filenames and extracted-text snippets, making visually recognizable figures difficult to locate.
 
 ## Prior Art & Originality
 
@@ -37,7 +39,27 @@ Our original contribution is a clearer asset-management and selection workflow f
 
 ## Stakeholders
 
-See instructions. Delete this line and replace with the name(s) of the stakeholder(s) you interviewed and lists showing their goals/needs, and problems/frustrations. Note which type of user each stakeholder represents. You may use pseudonyms or partial names to maintain their privacy, but you must privately share their full names and contact information as part of your submission of this exercise
+### Student Yifei C
+**User type:** Student
+
+**Goals / needs**
+- Find and select relevant materials easily when preparing slides.
+- See key concepts and learning objectives clearly emphasized.
+
+**Problems / frustrations**
+- Selecting source materials feels cumbersome.
+- Slide organization and emphasis can obscure main points.
+
+### Student Runmei L
+**User type:** Student
+
+**Goals / needs**
+- Use generated slides and quizzes to support review.
+- Have a backup record when unable to take notes.
+
+**Problems / frustrations**
+- Quiz questions sometimes focus on minor details.
+- Occasional inaccuracies make the student reluctant to replace personal notes with generated slides.
 
 ## Product Vision Statement
 
@@ -45,11 +67,20 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 ## User Requirements
 
-See instructions. Delete this line and place a list of your User Stories here, grouped by type of user. These should describe functionality that is new or changed, not functionality the app already has.
+1.As an instructor, I want to open and preview my uploaded PDFs and images from the lecture screen, so that I can check the original material while teaching.
+
+2.As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+
+3.As an instructor, I want to pin a specific figure as the source for my next slide while teaching, so that I can respond to the discussion without searching through settings.
+
+4.As an instructor, I want to open the original page behind a generated slide, so that I can check a number, formula, or explanation when a student asks about it.
+
+5.As an instructor, I want to preview a source privately before showing it to students, so that I can check that it is the right page and does not contain material I did not intend to display.
 
 ## Activity Diagrams
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+2.As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+![Instructor UML](instructor-asset-library-lecture-setup.png)
 
 ## Wireframes
 
