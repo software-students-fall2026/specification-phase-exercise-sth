@@ -45,7 +45,15 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 ## User Requirements
 
-See instructions. Delete this line and place a list of your User Stories here, grouped by type of user. These should describe functionality that is new or changed, not functionality the app already has.
+### Instructor User Stories
+
+1. As an instructor, I want to add approved course images, PDFs, videos, and links to a visual asset library, so that I can keep the materials I want the AI to use in one place.
+
+2. As an instructor, I want to see the supported file types and size limits before uploading an asset, so that I know whether my material can be accepted before I spend time uploading it.
+
+3. As an instructor, I want to add a clear title and description to each asset, so that I can understand what the material is without reopening the original file.
+
+4. As an instructor, I want to add searchable tags to my assets, so that I can quickly find the right visual by topic, concept, or lecture later.
 
 ## Activity Diagrams
 
