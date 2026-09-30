@@ -25,33 +25,29 @@ Shiqi Wang || https://github.com/ShiqiWang1115
 
 ### Weaknesses
 
-4. Weakness — Limited Dropbox asset organization. The Dropbox integration does not let instructors organize uploaded assets into project-specific folders or attach tags/groups to individual images. This makes it difficult to identify which visual material is appropriate for a particular lecture topic.
+4. Weakness — Flat and difficult-to-scan file selection. Files are presented together in a single dropdown list rather than in a structured browsing view. As the number of uploaded files grows, locating and selecting the intended asset becomes confusing.
 
-5. Weakness — Flat and difficult-to-scan file selection. Files are presented together in a single dropdown list rather than in a structured browsing view. As the number of uploaded files grows, locating and selecting the intended asset becomes confusing.
+5. Weakness — List View does not give a clear overview of the whole deck. My test lecture generated four slides, but after switching to List View, I still saw large individual slides instead of a compact overview or thumbnails of all four slides at once. This made it harder to quickly understand the structure of the deck or move to a specific slide.
 
-6. Weakness — List View does not give a clear overview of the whole deck. My test lecture generated four slides, but after switching to List View, I still saw large individual slides instead of a compact overview or thumbnails of all four slides at once. This made it harder to quickly understand the structure of the deck or move to a specific slide.
+6. Weakness — Generated slide content can be repetitive. In my generated "Race strategy elements" slide, one bullet said "The undercut," while the next bullet explained "The undercut: pit earlier to use fresh tires and gain time." The two bullets repeated the same idea, so the generated deck may still require manual cleanup before it is ready to share.
 
-7. Weakness — Generated slide content can be repetitive. In my generated "Race strategy elements" slide, one bullet said "The undercut," while the next bullet explained "The undercut: pit earlier to use fresh tires and gain time." The two bullets repeated the same idea, so the generated deck may still require manual cleanup before it is ready to share.
-
-8. Weakness — No direct access to source PDFs during lectures. Although three uploaded PDFs were marked “Ready” and “Use,” the lecture view offered no obvious way to open them. Instructors must consult the originals in a separate window.
+7. Weakness — No direct access to source PDFs during lectures. Although three uploaded PDFs were marked “Ready” and “Use,” the lecture view offered no obvious way to open them. Instructors must consult the originals in a separate window.
 
 ### Gaps
 
-9. Gap — No source traceability for generated slides. After a slide is generated, the interface does not clearly show which uploaded file, image, or PDF page was used. This makes it difficult for instructors to verify whether the AI selected the intended course material.
+8. Gap — No source traceability for generated slides. After a slide is generated, the interface does not clearly show which uploaded file, image, or PDF page was used. This makes it difficult for instructors to verify whether the AI selected the intended course material.
 
-10. Gap — Asset control is limited to the file level. Instructors can enable or disable an uploaded file, but there is no clear way to include or exclude specific pages or images within that file. This limits control when only part of a document is relevant to a lecture.
+9. Gap — Asset control is limited to the file level. Instructors can enable or disable an uploaded file, but there is no clear way to include or exclude specific pages or images within that file. This limits control when only part of a document is relevant to a lecture.
 
-11. Gap — No asset usage history. Uploaded materials do not show where or whether they have been used in previous lectures or slides. This makes it harder to intentionally reuse visuals or avoid unnecessary repetition.
+10. Gap — No asset usage history. Uploaded materials do not show where or whether they have been used in previous lectures or slides. This makes it harder to intentionally reuse visuals or avoid unnecessary repetition.
 
-12. Gap — No way to compare candidate visuals. The interface does not provide a side-by-side view of multiple images or PDF pages before selection. Instructors therefore have to inspect materials individually when deciding which visual best fits a slide.
+11. Gap — No way to compare candidate visuals. The interface does not provide a side-by-side view of multiple images or PDF pages before selection. Instructors therefore have to inspect materials individually when deciding which visual best fits a slide.
 
-13. Gap — No search for uploaded materials. Instructors must scan filenames to locate a specific figure.
+12. Gap — No search or filtering for uploaded materials. Instructors must scan filenames to locate a specific figure, with no visible controls to narrow a growing file list.
 
-14. Gap — No filters for uploaded materials. The file list offers no visible filtering controls, making relevant materials harder to find as the library grows.
+13. Gap — No grouping by chapter, topic, or lecture unit. The Dropbox integration lacks project-specific folders and tags/groups for individual images, while reference materials appear in one flat list. This makes it difficult to identify visuals for a lecture topic or direct the AI to the right sources.
 
-15. Gap — No grouping by chapter, topic, or lecture unit. Materials appear in one flat list, making it harder to direct the AI to the correct sources.
-
-16. Gap — No page-level PDF thumbnails. The list shows only filenames and extracted-text snippets, making visually recognizable figures difficult to locate.
+14. Gap — No page-level PDF thumbnails. The list shows only filenames and extracted-text snippets, making visually recognizable figures difficult to locate.
 
 ## Prior Art & Originality
 
@@ -95,33 +91,31 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 2. As an instructor, I want to see the supported file types and size limits before uploading an asset, so that I know whether my material can be accepted before I spend time uploading it.
 
-3. As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
+3. As an instructor, I want to edit the name, collection, and AI usage notes of an existing course asset and add or edit its searchable tags, so that the material stays organized and easy to find and the AI knows how I want it to be used.
 
-4. As an instructor, I want to add searchable tags to my assets, so that I can quickly find the right visual by topic, concept, or lecture later.
+4. As an instructor, I want to see which source asset was used for each generated slide, so that I can verify the slide is based on the correct course material.
 
-5. As an instructor, I want to see which source asset was used for each generated slide, so that I can verify the slide is based on the correct course material.
+5. As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
 
-6. As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
+6. As an instructor, I want to see where an asset has been used in previous lectures or slides, so that I can reuse visuals intentionally and avoid unnecessary repetition.
 
-7. As an instructor, I want to see where an asset has been used in previous lectures or slides, so that I can reuse visuals intentionally and avoid unnecessary repetition.
+7. As an instructor, I want to compare multiple candidate visuals before selecting one for a slide, so that I can choose the most appropriate visual for the concept I am teaching.
 
-8. As an instructor, I want to compare multiple candidate visuals before selecting one for a slide, so that I can choose the most appropriate visual for the concept I am teaching.
+8. As an instructor, I want to open and preview my uploaded PDFs and images from the lecture screen, so that I can check the original material while teaching.
 
-9. As an instructor, I want to open and preview my uploaded PDFs and images from the lecture screen, so that I can check the original material while teaching.
+9. As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
 
-10. As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+10. As an instructor, I want to pin a specific figure as the source for my next slide while teaching, so that I can respond to the discussion without searching through settings.
 
-11. As an instructor, I want to pin a specific figure as the source for my next slide while teaching, so that I can respond to the discussion without searching through settings.
+11. As an instructor, I want to open the original page behind a generated slide, so that I can check a number, formula, or explanation when a student asks about it.
 
-12. As an instructor, I want to open the original page behind a generated slide, so that I can check a number, formula, or explanation when a student asks about it.
-
-13. As an instructor, I want to preview a source privately before showing it to students, so that I can check that it is the right page and does not contain material I did not intend to display.
+12. As an instructor, I want to preview a source privately before showing it to students, so that I can check that it is the right page and does not contain material I did not intend to display.
 
 ## Activity Diagrams
 
 ### Instructor edits an existing course asset before a lecture
 
-**User Story:** As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
+**User Story:** As an instructor, I want to edit the name, collection, and AI usage notes of an existing course asset and add or edit its searchable tags, so that the material stays organized and easy to find and the AI knows how I want it to be used.
 
 <img src="UML.png" alt="UML Activity Diagram" width="700">
 
