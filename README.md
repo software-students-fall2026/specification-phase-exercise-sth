@@ -8,6 +8,8 @@ Sihao(Jacky) Chen || https://github.com/Abyssjac
 
 Jessie Zhang || https://github.com/jessiezhang218
 
+Xinyu Sun || https://github.com/Sinu112
+
 
 ## Review of the Current Application
 
@@ -27,9 +29,13 @@ Jessie Zhang || https://github.com/jessiezhang218
 
 8 Strength — Sharing permissions are clearly explained. The Privacy & Sharing page clearly separates Public and Restricted access and explains what each option means. It also allows an instructor to give a specific person Viewer access, making it easy to understand who can open the lecture deck.
 
-9 
+9 Gap — No source traceability for generated slides. After a slide is generated, the interface does not clearly show which uploaded file, image, or PDF page was used. This makes it difficult for instructors to verify whether the AI selected the intended course material.
 
-10 
+10 Gap — Asset control is limited to the file level. Instructors can enable or disable an uploaded file, but there is no clear way to include or exclude specific pages or images within that file. This limits control when only part of a document is relevant to a lecture.
+
+11 Gap — No asset usage history. Uploaded materials do not show where or whether they have been used in previous lectures or slides. This makes it harder to intentionally reuse visuals or avoid unnecessary repetition.
+
+12 Gap — No way to compare candidate visuals. The interface does not provide a side-by-side view of multiple images or PDF pages before selection. Instructors therefore have to inspect materials individually when deciding which visual best fits a slide.
 
 ## Prior Art & Originality
 
@@ -56,6 +62,14 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 3. As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
 
 4. As an instructor, I want to add searchable tags to my assets, so that I can quickly find the right visual by topic, concept, or lecture later.
+
+5. As an instructor, I want to see which source asset was used for each generated slide, so that I can verify the slide is based on the correct course material.
+
+6. As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
+
+7. As an instructor, I want to see where an asset has been used in previous lectures or slides, so that I can reuse visuals intentionally and avoid unnecessary repetition.
+
+8. As an instructor, I want to compare multiple candidate visuals before selecting one for a slide, so that I can choose the most appropriate visual for the concept I am teaching.
 
 ## Activity Diagrams
 
