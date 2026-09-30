@@ -10,6 +10,8 @@ Jessie Zhang || https://github.com/jessiezhang218
 
 Xinyu Sun || https://github.com/Sinu112
 
+Shiqi Wang || https://github.com/ShiqiWang1115
+
 
 ## Review of the Current Application
 
@@ -44,7 +46,27 @@ Our original contribution is a clearer asset-management and selection workflow f
 
 ## Stakeholders
 
-See instructions. Delete this line and replace with the name(s) of the stakeholder(s) you interviewed and lists showing their goals/needs, and problems/frustrations. Note which type of user each stakeholder represents. You may use pseudonyms or partial names to maintain their privacy, but you must privately share their full names and contact information as part of your submission of this exercise
+### Student Yifei C
+**User type:** Student
+
+**Goals / needs**
+- Find and select relevant materials easily when preparing slides.
+- See key concepts and learning objectives clearly emphasized.
+
+**Problems / frustrations**
+- Selecting source materials feels cumbersome.
+- Slide organization and emphasis can obscure main points.
+
+### Student Runmei L
+**User type:** Student
+
+**Goals / needs**
+- Use generated slides and quizzes to support review.
+- Have a backup record when unable to take notes.
+
+**Problems / frustrations**
+- Quiz questions sometimes focus on minor details.
+- Occasional inaccuracies make the student reluctant to replace personal notes with generated slides.
 
 ## Product Vision Statement
 
@@ -135,6 +157,10 @@ flowchart LR
     O -- No --> Z
 ```
 
+====================================
+
+As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+![Instructor UML](instructor-asset-library-lecture-setup.png)
 
 ## Wireframes
 
