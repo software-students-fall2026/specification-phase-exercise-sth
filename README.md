@@ -6,6 +6,8 @@ A little exercise to get started with the specification phase of the software de
 
 Sihao(Jacky) Chen || https://github.com/Abyssjac
 
+Jessie Zhang || https://github.com/jessiezhang218
+
 
 ## Review of the Current Application
 
@@ -17,13 +19,13 @@ Sihao(Jacky) Chen || https://github.com/Abyssjac
 
 4 Strength — Responsive live transcription and generation. In my test, the system understood spoken input reliably and generated slides quickly enough to keep up with the lecture flow, without noticeable delay.
 
-5 
+5 Weakness — Some navigation controls are difficult to understand at first. Several controls on the lecture page are shown mainly as icons without visible text labels. During my first use, I had to hover over or try the icons to figure out functions such as List View. This makes basic navigation less obvious for a first-time instructor.
 
-6 
+6 Weakness — List View does not give a clear overview of the whole deck. My test lecture generated four slides, but after switching to List View, I still saw large individual slides instead of a compact overview or thumbnails of all four slides at once. This made it harder to quickly understand the structure of the deck or move to a specific slide.
 
-7 
+7 Weakness — Generated slide content can be repetitive. In my generated "Race strategy elements" slide, one bullet said "The undercut," while the next bullet explained "The undercut: pit earlier to use fresh tires and gain time." The two bullets repeated the same idea, so the generated deck may still require manual cleanup before it is ready to share.
 
-8 
+8 Strength — Sharing permissions are clearly explained. The Privacy & Sharing page clearly separates Public and Restricted access and explains what each option means. It also allows an instructor to give a specific person Viewer access, making it easy to understand who can open the lecture deck.
 
 9 
 
@@ -45,11 +47,23 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 ## User Requirements
 
-See instructions. Delete this line and place a list of your User Stories here, grouped by type of user. These should describe functionality that is new or changed, not functionality the app already has.
+### Instructor User Stories
+
+1. As an instructor, I want to add approved course images, PDFs, videos, and links to a visual asset library, so that I can keep the materials I want the AI to use in one place.
+
+2. As an instructor, I want to see the supported file types and size limits before uploading an asset, so that I know whether my material can be accepted before I spend time uploading it.
+
+3. As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
+
+4. As an instructor, I want to add searchable tags to my assets, so that I can quickly find the right visual by topic, concept, or lecture later.
 
 ## Activity Diagrams
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+### Instructor edits an existing course asset before a lecture
+
+**User Story:** As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
+
+<img src="UML.png" alt="UML Activity Diagram" width="700">
 
 ## Wireframes
 
