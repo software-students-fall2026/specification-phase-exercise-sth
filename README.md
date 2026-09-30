@@ -79,6 +79,64 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 <img src="UML.png" alt="UML Activity Diagram" width="700">
 
+### UML Activity Diagram — Manage Individual Assets Within an Uploaded File
+
+**User Story:**  
+As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
+
+```mermaid
+flowchart LR
+
+    subgraph Instructor
+        direction TB
+        A([Start])
+        B[Open Visual Asset Library]
+        C[Select uploaded file]
+        G[Preview pages or images]
+        H[Select page or image]
+        I{Include or exclude?}
+        J[Mark as approved]
+        K[Mark as excluded]
+        L[Save selection]
+        F{Retry file load?}
+        O{Retry save?}
+    end
+
+    subgraph System
+        direction TB
+        D{File loads successfully?}
+        E[Show file loading error]
+        M{Save successful?}
+        N[Show save error]
+    end
+
+    Z([End])
+
+    A --> B --> C
+    C --> D
+
+    D -- Yes --> G
+    D -- No --> E --> F
+    F -- Yes --> C
+    F -- No --> Z
+
+    G --> H --> I
+
+    I -- Include --> J
+    I -- Exclude --> K
+
+    J --> L
+    K --> L
+
+    L --> M
+
+    M -- Yes --> Z
+    M -- No --> N --> O
+    O -- Yes --> L
+    O -- No --> Z
+```
+
+
 ## Wireframes
 
 https://www.figma.com/design/9UYnN5XWkhG3QWic3gFSlU/SEP1_Diagram?node-id=0-1&t=Wk8TG86xifjVClxl-1
