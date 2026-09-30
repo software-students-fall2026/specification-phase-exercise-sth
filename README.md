@@ -6,30 +6,35 @@ A little exercise to get started with the specification phase of the software de
 
 Sihao(Jacky) Chen || https://github.com/Abyssjac
 
-Shiqi Wang || https://github.com/ShiqiWang1115
+Jessie Zhang || https://github.com/jessiezhang218
+
+Xinyu Sun || https://github.com/Sinu112
 
 
 ## Review of the Current Application
 
-1 Weakness — Limited Dropbox asset organization. The Dropbox integration does not let instructors organize uploaded assets into project-specific folders or attach tags/groups to individual images. This makes it difficult to identify which visual material is appropriate for a particular lecture topic.
+Strengths
+1. Strength — Responsive live transcription and generation. In my test, the system understood spoken input reliably and generated slides quickly enough to keep up with the lecture flow, without noticeable delay.
 
-2 Gap — No discoverable style library. During use, I could not find a clear library for selecting or managing slide styles. Generated slides appeared to default to an NYU-style presentation format, with limited visible control over the visual style.
+2. Strength — Sharing permissions are clearly explained. The Privacy & Sharing page clearly separates Public and Restricted access and explains what each option means. It also allows an instructor to give a specific person Viewer access, making it easy to understand who can open the lecture deck.
 
-3 Weakness — Flat and difficult-to-scan file selection. Files are presented together in a single dropdown list rather than in a structured browsing view. As the number of uploaded files grows, locating and selecting the intended asset becomes confusing.
+Weaknesses
+3. Weakness — Limited Dropbox asset organization. The Dropbox integration does not let instructors organize uploaded assets into project-specific folders or attach tags/groups to individual images. This makes it difficult to identify which visual material is appropriate for a particular lecture topic.
 
-4 Strength — Responsive live transcription and generation. In my test, the system understood spoken input reliably and generated slides quickly enough to keep up with the lecture flow, without noticeable delay.
+4. Weakness — Flat and difficult-to-scan file selection. Files are presented together in a single dropdown list rather than in a structured browsing view. As the number of uploaded files grows, locating and selecting the intended asset becomes confusing.
 
-5 Strength — Clear upload feedback. Uploaded files show “Processing” or “Ready,” an extracted-text preview, and a “Use” checkbox. Instructors can confirm when a file is available for use.
+5. Weakness — List View does not give a clear overview of the whole deck. My test lecture generated four slides, but after switching to List View, I still saw large individual slides instead of a compact overview or thumbnails of all four slides at once. This made it harder to quickly understand the structure of the deck or move to a specific slide.
 
-6 Weakness — No direct access to source PDFs during lectures. Although three uploaded PDFs were marked “Ready” and “Use,” the lecture view offered no obvious way to open them. Instructors must consult the originals in a separate window.
+6. Weakness — Generated slide content can be repetitive. In my generated "Race strategy elements" slide, one bullet said "The undercut," while the next bullet explained "The undercut: pit earlier to use fresh tires and gain time." The two bullets repeated the same idea, so the generated deck may still require manual cleanup before it is ready to share.
 
-7 Gap — No search for uploaded materials. Instructors must scan filenames to locate a specific figure.
+Gaps
+7. Gap — No source traceability for generated slides. After a slide is generated, the interface does not clearly show which uploaded file, image, or PDF page was used. This makes it difficult for instructors to verify whether the AI selected the intended course material.
 
-8 Gap — No filters for uploaded materials. The file list offers no visible filtering controls, making relevant materials harder to find as the library grows.
+8. Gap — Asset control is limited to the file level. Instructors can enable or disable an uploaded file, but there is no clear way to include or exclude specific pages or images within that file. This limits control when only part of a document is relevant to a lecture.
 
-9 Gap — No grouping by chapter, topic, or lecture unit. Materials appear in one flat list, making it harder to direct the AI to the correct sources.
+9. Gap — No asset usage history. Uploaded materials do not show where or whether they have been used in previous lectures or slides. This makes it harder to intentionally reuse visuals or avoid unnecessary repetition.
 
-10 Gap — No page-level PDF thumbnails. The list shows only filenames and extracted-text snippets, making visually recognizable figures difficult to locate.
+10. Gap — No way to compare candidate visuals. The interface does not provide a side-by-side view of multiple images or PDF pages before selection. Instructors therefore have to inspect materials individually when deciding which visual best fits a slide.
 
 ## Prior Art & Originality
 
@@ -39,27 +44,7 @@ Our original contribution is a clearer asset-management and selection workflow f
 
 ## Stakeholders
 
-### Student Yifei C
-**User type:** Student
-
-**Goals / needs**
-- Find and select relevant materials easily when preparing slides.
-- See key concepts and learning objectives clearly emphasized.
-
-**Problems / frustrations**
-- Selecting source materials feels cumbersome.
-- Slide organization and emphasis can obscure main points.
-
-### Student Runmei L
-**User type:** Student
-
-**Goals / needs**
-- Use generated slides and quizzes to support review.
-- Have a backup record when unable to take notes.
-
-**Problems / frustrations**
-- Quiz questions sometimes focus on minor details.
-- Occasional inaccuracies make the student reluctant to replace personal notes with generated slides.
+See instructions. Delete this line and replace with the name(s) of the stakeholder(s) you interviewed and lists showing their goals/needs, and problems/frustrations. Note which type of user each stakeholder represents. You may use pseudonyms or partial names to maintain their privacy, but you must privately share their full names and contact information as part of your submission of this exercise
 
 ## Product Vision Statement
 
@@ -67,20 +52,89 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 ## User Requirements
 
-1.As an instructor, I want to open and preview my uploaded PDFs and images from the lecture screen, so that I can check the original material while teaching.
+### Instructor User Stories
 
-2.As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+1. As an instructor, I want to add approved course images, PDFs, videos, and links to a visual asset library, so that I can keep the materials I want the AI to use in one place.
 
-3.As an instructor, I want to pin a specific figure as the source for my next slide while teaching, so that I can respond to the discussion without searching through settings.
+2. As an instructor, I want to see the supported file types and size limits before uploading an asset, so that I know whether my material can be accepted before I spend time uploading it.
 
-4.As an instructor, I want to open the original page behind a generated slide, so that I can check a number, formula, or explanation when a student asks about it.
+3. As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
 
-5.As an instructor, I want to preview a source privately before showing it to students, so that I can check that it is the right page and does not contain material I did not intend to display.
+4. As an instructor, I want to add searchable tags to my assets, so that I can quickly find the right visual by topic, concept, or lecture later.
+
+5. As an instructor, I want to see which source asset was used for each generated slide, so that I can verify the slide is based on the correct course material.
+
+6. As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
+
+7. As an instructor, I want to see where an asset has been used in previous lectures or slides, so that I can reuse visuals intentionally and avoid unnecessary repetition.
+
+8. As an instructor, I want to compare multiple candidate visuals before selecting one for a slide, so that I can choose the most appropriate visual for the concept I am teaching.
 
 ## Activity Diagrams
 
-2.As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
-![Instructor UML](instructor-asset-library-lecture-setup.png)
+### Instructor edits an existing course asset before a lecture
+
+**User Story:** As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
+
+<img src="UML.png" alt="UML Activity Diagram" width="700">
+
+### UML Activity Diagram — Manage Individual Assets Within an Uploaded File
+
+**User Story:**  
+As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
+
+```mermaid
+flowchart LR
+
+    subgraph Instructor
+        direction TB
+        A([Start])
+        B[Open Visual Asset Library]
+        C[Select uploaded file]
+        G[Preview pages or images]
+        H[Select page or image]
+        I{Include or exclude?}
+        J[Mark as approved]
+        K[Mark as excluded]
+        L[Save selection]
+        F{Retry file load?}
+        O{Retry save?}
+    end
+
+    subgraph System
+        direction TB
+        D{File loads successfully?}
+        E[Show file loading error]
+        M{Save successful?}
+        N[Show save error]
+    end
+
+    Z([End])
+
+    A --> B --> C
+    C --> D
+
+    D -- Yes --> G
+    D -- No --> E --> F
+    F -- Yes --> C
+    F -- No --> Z
+
+    G --> H --> I
+
+    I -- Include --> J
+    I -- Exclude --> K
+
+    J --> L
+    K --> L
+
+    L --> M
+
+    M -- Yes --> Z
+    M -- No --> N --> O
+    O -- Yes --> L
+    O -- No --> Z
+```
+
 
 ## Wireframes
 
