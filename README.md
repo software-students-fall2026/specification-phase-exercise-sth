@@ -1,4 +1,4 @@
-3# Specification Phase Exercise
+# Specification Phase Exercise
 
 A little exercise to get started with the specification phase of the software development lifecycle. In this exercise, your team specifies a set of improvements and new features for [The Slide Machine](https://theslidemachine.com) — see the [instructions](instructions.md) for detail, and the [background](background.md) for an introduction to the software product you are tasked with extending.
 
