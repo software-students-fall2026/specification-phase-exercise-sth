@@ -57,6 +57,28 @@ Our original contribution is a clearer asset-management and selection workflow f
 
 ## Stakeholders
 
+### Instructor SQ
+**User type:** Instructor
+
+**Goals / needs**
+- Reuse trusted course materials across lectures without repeatedly finding or uploading them.
+- Organize materials by topic or lecture before slide generation begins.
+- Make sure AI uses correct material and generates correct slides.
+- Distinguish preferred visuals from reference-only materials so the AI uses each appropriately.
+- Verify the original source behind generated slide content.
+
+**What works well**
+- The AI responds quickly enough to keep pace with the lecture.
+- Automatic slide generation saves instructors the time and effort of creating slides manually.
+
+**Problems / frustrations**
+- AI-generated slides sometimes contain inaccuracies that instructors must check and correct before presenting.
+- A flat asset list makes relevant materials difficult to find.
+- A simple “Use” checkbox does not explain how the AI should use a material.
+- It is difficult to confirm which materials the AI will use before generation.
+- AI-generated slides sometimes omit important concepts or examples from the course materials.
+- Generated slides do not clearly link back to their original files or pages.
+
 ### Student Yifei C
 **User type:** Student
 
