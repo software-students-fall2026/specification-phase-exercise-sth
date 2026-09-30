@@ -41,13 +41,9 @@ Shiqi Wang || https://github.com/ShiqiWang1115
 
 10. Gap — No asset usage history. Uploaded materials do not show where or whether they have been used in previous lectures or slides. This makes it harder to intentionally reuse visuals or avoid unnecessary repetition.
 
-11. Gap — No way to compare candidate visuals. The interface does not provide a side-by-side view of multiple images or PDF pages before selection. Instructors therefore have to inspect materials individually when deciding which visual best fits a slide.
+11. Gap — No search or filtering for uploaded materials. Instructors must scan filenames to locate a specific figure, with no visible controls to narrow a growing file list.
 
-12. Gap — No search or filtering for uploaded materials. Instructors must scan filenames to locate a specific figure, with no visible controls to narrow a growing file list.
-
-13. Gap — No grouping by chapter, topic, or lecture unit. The Dropbox integration lacks project-specific folders and tags/groups for individual images, while reference materials appear in one flat list. This makes it difficult to identify visuals for a lecture topic or direct the AI to the right sources.
-
-14. Gap — No page-level PDF thumbnails. The list shows only filenames and extracted-text snippets, making visually recognizable figures difficult to locate.
+12. Gap — No grouping by chapter, topic, or lecture unit. The Dropbox integration lacks project-specific folders and tags/groups for individual images, while reference materials appear in one flat list. This makes it difficult to identify visuals for a lecture topic or direct the AI to the right sources.
 
 ## Prior Art & Originality
 
@@ -119,19 +115,17 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 5. As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
 
-6. As an instructor, I want to see where an asset has been used in previous lectures or slides, so that I can reuse visuals intentionally and avoid unnecessary repetition.
+6. As an instructor, I want to compare multiple candidate visuals before selecting one for a slide, so that I can choose the most appropriate visual for the concept I am teaching.
 
-7. As an instructor, I want to compare multiple candidate visuals before selecting one for a slide, so that I can choose the most appropriate visual for the concept I am teaching.
+7. As an instructor, I want to open and preview my uploaded PDFs and images from the lecture screen, so that I can check the original material while teaching.
 
-8. As an instructor, I want to open and preview my uploaded PDFs and images from the lecture screen, so that I can check the original material while teaching.
+8. As an instructor, I want to pin a specific figure as the source for my next slide while teaching, so that I can respond to the discussion without searching through settings.
 
-9. As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+9. As an instructor, I want to open the original page behind a generated slide, so that I can check a number, formula, or explanation when a student asks about it.
 
-10. As an instructor, I want to pin a specific figure as the source for my next slide while teaching, so that I can respond to the discussion without searching through settings.
+10. As an instructor, I want to preview a source privately before showing it to students, so that I can check that it is the right page and does not contain material I did not intend to display.
 
-11. As an instructor, I want to open the original page behind a generated slide, so that I can check a number, formula, or explanation when a student asks about it.
-
-12. As an instructor, I want to preview a source privately before showing it to students, so that I can check that it is the right page and does not contain material I did not intend to display.
+11. As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
 
 ## Activity Diagrams
 
@@ -143,8 +137,7 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 ### UML Activity Diagram — Manage Individual Assets Within an Uploaded File
 
-**User Story:**  
-As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
+**User Story:** As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
 
 ```mermaid
 flowchart LR
@@ -198,9 +191,10 @@ flowchart LR
     O -- No --> Z
 ```
 
-====================================
+### Instructor organizes and selects assets before a lecture
 
-As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+**User Story:** As an instructor, I want to organize course materials by topic or lecture and search within them, so that I can quickly find the right source instead of scanning a long file list.
+
 ![Instructor UML](instructor-asset-library-lecture-setup.png)
 
 ## Wireframes
