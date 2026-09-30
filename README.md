@@ -1,4 +1,4 @@
-# Specification Phase Exercise
+3# Specification Phase Exercise
 
 A little exercise to get started with the specification phase of the software development lifecycle. In this exercise, your team specifies a set of improvements and new features for [The Slide Machine](https://theslidemachine.com) — see the [instructions](instructions.md) for detail, and the [background](background.md) for an introduction to the software product you are tasked with extending.
 
@@ -51,13 +51,17 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 2. As an instructor, I want to see the supported file types and size limits before uploading an asset, so that I know whether my material can be accepted before I spend time uploading it.
 
-3. As an instructor, I want to add a clear title and description to each asset, so that I can understand what the material is without reopening the original file.
+3. As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
 
 4. As an instructor, I want to add searchable tags to my assets, so that I can quickly find the right visual by topic, concept, or lecture later.
 
 ## Activity Diagrams
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+### Instructor edits an existing course asset before a lecture
+
+**User Story:** As an instructor, I want to edit the name, collection, tags, and AI usage notes of an existing course asset, so that the material stays organized and the AI knows how I want it to be used.
+
+<img src="UML.png" alt="UML Activity Diagram" width="700">
 
 ## Wireframes
 
