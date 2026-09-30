@@ -5,6 +5,7 @@ A little exercise to get started with the specification phase of the software de
 ## Team members
 
 Sihao(Jacky) Chen || https://github.com/Abyssjac
+
 Jessie Zhang || https://github.com/jessiezhang218
 
 
