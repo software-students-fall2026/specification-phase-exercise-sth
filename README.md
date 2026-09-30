@@ -135,7 +135,7 @@ For instructors using The Slide Machine, the Visual Asset Library enables them t
 
 <img src="UML.png" alt="UML Activity Diagram" width="700">
 
-### UML Activity Diagram — Manage Individual Assets Within an Uploaded File
+### Manage Individual Assets Within an Uploaded File
 
 **User Story:** As an instructor, I want to include or exclude specific pages or images within an uploaded file, so that I can control which parts of the material the AI may use.
 
