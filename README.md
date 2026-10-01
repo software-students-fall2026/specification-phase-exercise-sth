@@ -207,8 +207,8 @@ https://www.figma.com/proto/9UYnN5XWkhG3QWic3gFSlU/SEP1_Diagram?node-id=17-134&p
 
 ## Stakeholder Demo
 
-https://theslidemachine.com/d/untitled-bbcc48a5
+https://theslidemachine.com/d/untitled-8302e140
 
 ## Exit Ticket
 
-https://docs.google.com/forms/d/e/1FAIpQLSeSXmzbLfBoyxdXc86BOqVBbmrbjythSHBWGFGst3RyUQFEZA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSfKpuqjkf52-HfVJl3NgLRmslx2hupVEQoIJXTTNMQgthYFRg/viewform
