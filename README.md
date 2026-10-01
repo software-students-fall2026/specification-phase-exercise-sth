@@ -207,8 +207,8 @@ https://www.figma.com/proto/9UYnN5XWkhG3QWic3gFSlU/SEP1_Diagram?node-id=17-134&p
 
 ## Stakeholder Demo
 
-See instructions. Delete this line and place a link to the deck The Slide Machine generated during your presentation here, after you have presented.
+https://theslidemachine.com/d/untitled-bbcc48a5
 
 ## Exit Ticket
 
-See instructions. Delete this line and place a link to the exit-ticket quiz you generated from your demo deck and distributed to the class, along with a short note on what — if anything — you had to correct in the generated questions before publishing.
+https://docs.google.com/forms/d/e/1FAIpQLSeSXmzbLfBoyxdXc86BOqVBbmrbjythSHBWGFGst3RyUQFEZA/viewform
